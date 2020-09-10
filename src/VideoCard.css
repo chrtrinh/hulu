@@ -12,7 +12,7 @@
 }
 
 .videoCard > h2 {
-	padding-top: 10px;
+	padding-top: 5px;
 	margin-left: 10px;
 }
 
@@ -24,4 +24,12 @@
 	height: 300px;
 	object-fit: contain;
 	width: 500px;
+}
+
+.videoCard__stats {
+	display: none;
+}
+
+.videoCard:hover > .videoCard__stats {
+	display: inline;
 }
